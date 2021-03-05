@@ -498,17 +498,14 @@ a{
 
 @media (max-width: 470px){
 
-	/*.settings_circles{
-		flex-direction: column;
+.header__link{
+		font-size: 10px;
 	}
-	img{
-		width: 200px;
-	}
-	.form__img img {
-		width: 200px;
-	}*/
 	.input,.bot-send-mail{
 		width: 200px;
+	}
+	.content__text{
+		font-size: 15px;
 	}
 	.text{
 		font-size: 30px;
@@ -527,6 +524,10 @@ a{
 		width: 90px;
 	}
 	.slider__item img{
-	width: 300px;
+	width: 250px;
 	}
+	.socials__links img{
+		width: 20px;
+	}
+	.phone{font-size: 10px;}
 }
