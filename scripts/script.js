@@ -6,5 +6,13 @@ $(document).ready(function(){
 		infinite: true,
 		pauseOnFocus: true,
 		pauseOnHover: true,
+		responsive:[
+		{
+			breakpoint: 980,
+			settings:{
+				slidesToShow: 1,
+			}
+		}
+		]
 	});
 })
